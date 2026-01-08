@@ -62,6 +62,7 @@
         <module>commons-lib</module>
         <module>discovery-service</module>
         <module>client-service</module>
+        <module>merchant-service</module>
     </modules>
 
     <build>
