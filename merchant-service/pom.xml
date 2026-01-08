@@ -8,24 +8,24 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<groupId>com.caito.clientservice</groupId>
-	<artifactId>client-service</artifactId>
+	<groupId>com.caito.merchantservice</groupId>
+	<artifactId>merchant-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>client-service</name>
-	<description>client-service</description>
+	<name>merchant-service</name>
+	<description>merchant-service</description>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.mysql</groupId>
@@ -43,7 +43,7 @@
 			<version>3.0.0</version>
 		</dependency>
 
-<!--       FIX VULNERABILITIES-->
+		<!--       FIX VULNERABILITIES-->
 
 		<dependency>
 			<groupId>com.google.guava</groupId>
@@ -65,9 +65,7 @@
 			<artifactId>commons-configuration</artifactId>
 			<version>20030311.152757</version>
 		</dependency>
-
 	</dependencies>
-
 
 
 </project>
