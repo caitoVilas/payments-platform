@@ -63,6 +63,7 @@
         <module>discovery-service</module>
         <module>client-service</module>
         <module>merchant-service</module>
+        <module>gateway-service</module>
     </modules>
 
     <build>
